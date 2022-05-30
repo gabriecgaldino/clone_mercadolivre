@@ -1,0 +1,8 @@
+#infocep, .navigation__list-itens {
+    display: flex;
+}
+
+.navigation__list-itens {
+    margin-left: 100px;
+}
+

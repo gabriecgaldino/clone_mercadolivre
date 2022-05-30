@@ -1,0 +1,23 @@
+/* Pages */
+@import url('../pages/grid.css');
+
+/* Organisms */
+@import url('../organisms/nav.css');
+@import url('../organisms/main/carrossel.css');
+@import url('../organisms/main/section-a.css');
+@import url('../organisms/main/section-b.css');
+
+/* Molecules */
+@import url('../molecules/nav/downline.css');
+@import url('../molecules/nav/topline.css');
+@import url('../molecules/main/carrossel/img-select.css');
+@import url('../molecules/main/section.a/header-section.css');
+@import url('../molecules/main/section.a/box-header.css');
+@import url('../molecules/main/section.a/ofertas-dia.css');
+@import url('../molecules/main/section.a/cards.css');
+@import url('../molecules/main/section.b/header-section-b.css');
+@import url('../molecules/main/section.b/products.css');
+
+/* Atoms */
+@import url('../atoms/nav/list-item.css');
+

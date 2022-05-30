@@ -1,0 +1,13 @@
+.section-b {
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-bottom: 1000%;
+
+    border-radius: 10px;
+    background-color: white;
+
+    width: 71%;
+}

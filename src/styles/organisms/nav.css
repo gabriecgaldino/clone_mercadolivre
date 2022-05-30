@@ -1,0 +1,17 @@
+.navigation {
+    background-color: #FFF159;
+    flex-direction: column;
+    height: 100px;
+
+    font-weight: 100;
+    font-size: 13px;
+    color: rgba(71, 71, 71, 0.603);
+}
+
+.navigation, .topline, .downline {
+    display: flex;
+}
+
+.downline, .topline {
+    width: 1150px;
+}

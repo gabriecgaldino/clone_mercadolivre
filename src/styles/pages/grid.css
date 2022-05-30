@@ -1,0 +1,9 @@
+body {
+    background-color: #EBEBEB;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation, .topline, .downline, .main{
+    margin: auto;
+}

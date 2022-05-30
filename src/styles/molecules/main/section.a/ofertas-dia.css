@@ -1,0 +1,20 @@
+.ofertas-dia > :not(.title){
+    display: flex;
+    align-items: flex-start;
+}
+.ofertas-dia .title {
+    display: flex;
+    align-items: flex-end;
+
+    margin-bottom: 20px;
+}
+
+.ofertas-dia .title > h1{
+    color: #888888;
+    font-size: 25px;
+    font-weight: 100;
+
+    margin-right: 20px;
+}
+
+ 

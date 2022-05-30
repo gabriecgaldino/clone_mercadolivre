@@ -1,0 +1,79 @@
+.cards {
+    margin-right: 15px;
+    margin-bottom: 30px;
+    width: 224px;
+    height: 350px;
+    overflow: hidden;
+
+    background-color: white;
+    border-radius: 2px;
+}
+.cards > *:not(img, button) {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.cards:hover .cards__valor-original, .cards:hover .like, .cards:hover .cards__desc {
+    display: flex;
+    
+}
+.cards:hover {
+    height: 400px;
+    box-shadow: 0px 5px 22px 0px rgba(156, 156, 156, 0.788);
+}
+
+.like {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    top: -220px;
+    left: 180px;
+    
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 50%;
+    border: none
+}
+
+.cards__valor, .cards__parcelamento, .cards__frete {
+    margin-bottom: 5px;
+}
+
+.cards__valor-original{
+    display: none;
+    text-decoration:line-through;
+    font-size: 10px;
+}
+
+.cards__valor {
+    font-size: 28px;
+    font-weight: 100;
+    color: #494949;
+}
+
+.cards__parcelamento {
+    color: #66CA96;
+    font-size: 13px;
+}
+
+.cards__frete, .cards__desconto {
+    color: #00A650;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cards__desconto {
+    font-weight: 100;
+}
+
+.cards__desc, .cards__valor-original{
+    color: #ADADAD;
+}
+
+.cards__desc {
+    font-size: 10px;
+    display: none;
+}

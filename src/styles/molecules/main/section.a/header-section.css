@@ -1,0 +1,14 @@
+.header-section {
+    height: 80px;
+    padding: 5px;
+
+    margin-bottom: 60px;
+}
+
+.header-section:nth-child(1):before{
+    content: '';
+    background-color: #3483FA;
+    width: 4px;
+    height: 85px;
+    margin-right: 10px;
+}

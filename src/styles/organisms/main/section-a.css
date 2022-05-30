@@ -1,0 +1,29 @@
+.section-a {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 71%;
+}
+.header-section, .galery-list, .box-header {
+    display: flex;
+    padding: 2px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.header-section{
+    background-color: white;
+}
+
+.list-cards {
+    width: 100%;
+    overflow: hidden;
+}
+
+.galery-list {
+    width: 2350px;
+}
+
+

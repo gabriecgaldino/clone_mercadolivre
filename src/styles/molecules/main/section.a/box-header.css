@@ -1,0 +1,39 @@
+.box-header{
+    width: 25%;
+    margin-right: 10px;
+}
+
+.header-title {
+    font-size: 17px;
+    font-weight: 100;
+    color: #393939;
+
+    margin-bottom: 5px;
+}
+
+.box-header div > p {
+    color: #999999;
+    font-size: 14px;
+}
+
+.box-header div a, .ofertas-dia .title > a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3483FA;
+}
+
+.box-header div svg {
+    width: 25px;
+    height: 25px;
+}
+
+.contente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 50%;
+    margin-right: 10px;
+}
